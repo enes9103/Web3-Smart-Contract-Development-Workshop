@@ -1,6 +1,19 @@
 # Introduction
 
-Bu dersimizde Solidity ve Ethereum'a dair basit özelliklerden bahsedip Metamask cüzdanı kurduk. Ardından ise bir akıllı kontrat örneği üzerinden Remix IDE kullanmayı öğrendik.
+Solidity ve Ethereum'a dair basit özelliklerden bahsedip Metamask cüzdanı kurduk. Ardından ise bir akıllı kontrat örneği üzerinden Remix IDE kullanmayı öğrendik.
+
+Notlar:
+- Metamask'a farklı ağları hızlıca eklemek için chainlist.org sitesi kullanılabilir. Metamask cüzdan siteye bağlandıktan sorna istenen ağ bulunup eklenmeli.
+- Metamask'tan test ağları gösterimini açıp ardından örn: rinkeby gibi test ağlarına bakiye göndermemiz gerekiyor. Bunun için https://faucet.rinkeby.io/ sitesi kullanılabilir.
+- Metamask cüzdanımıza test ethereum almak için test ağlarının (rinkeby goerly sepolia vs) twetter koşullarını sağlayıp cüzdanımıza alıyoruz.
+solidity yazmak için Remix ıde VSCode gibi ideler kullanılabilir.
+- Yazıp hazırladığımız solidity kodlarını solidity compiler ile compile edip ERM nin anlayacağı dile çeviriyoruz. [Remix IDE Solidity Compiler](remix ıde solidity compiler.png)
+- ERM (Ethereum Sanal Makinası)'i Ethereum blockchain işletim sistemi olarak düşünebiliriz.
+- ERM solidity dilini anlamadığı için Losidity compiler ile compile ediyoruz. Ardından compile edilmiş Bytecode'u Ethereum sanal makinası ile paylaşarak işlem gerçekleştiriyoruz.
+
+- Remix IDE Solidity Compiler alt kısımda ihtiyacımız olan ABI kısmı olacak.  Buradaki veri tiplerine erişim sağlayacağız. ABI detayında contract lara ait veri tipi parametreler vs gibi bilgiler yer alır. Arayüzümüzden kolayca bu bilgiler ile etkileşebiliyoruz.
+- Remix IDE'de en alttaki sekme ise deploy sekmesi.  Cüzdan adresimiz hangi hesaptan işlem yapacağımız gibi bilgiler var. Buradan hangi contract ta işlem yapıyorsak CONTRACH kısmından onu seçmeliyiz. Aynı şekilde deploy dropdown'ı içinden hangi parametreler gönderilmesi gerekiyorsa bunları buradan belirtmeliyiz. Buradan transact butonuna basarak contract'ımızın deploy edildiğini görebiliriz.
+- Hazırladığımız contract'ı gerçek ağa yüklemek için remix'te environment'ı injected web3 (veya injected provider) yapıyoruz. Bu bizim metamask cüzdanımız anlamına gelir. buradan metamask cüzdanımızı idemize bağlıyoruz. 
 
 # Resources
 
@@ -22,17 +35,4 @@ Bu dersimizde Solidity ve Ethereum'a dair basit özelliklerden bahsedip Metamask
 
 [Remix IDE](https://www.remix.ethereum.org)
 
-[Names Kontrat Örneği - Rinkeby @ 0x43557ed01dFb3Db167aEA5c0f4981847E6DD64fa](./Names.sol)
-
-Notlar:
-- Metamask'a farklı ağları hızlıca eklemek için chainlist.org sitesi kullanılabilir. Metamask cüzdan siteye bağlandıktan sorna istenen ağ bulunup eklenmeli.
-- Metamask'tan test ağları gösterimini açıp ardından örn: rinkeby gibi test ağlarına bakiye göndermemiz gerekiyor. Bunun için https://faucet.rinkeby.io/ sitesi kullanılabilir.
-- Metamask cüzdanımıza test ethereum almak için test ağlarının (rinkeby goerly sepolia vs) twetter koşullarını sağlayıp cüzdanımıza alıyoruz.
-solidity yazmak için Remix ıde VSCode gibi ideler kullanılabilir.
-- Yazıp hazırladığımız solidity kodlarını solidity compiler ile compile edip ERM nin anlayacağı dile çeviriyoruz. [Remix IDE Solidity Compiler](remix ıde solidity compiler.png)
-- ERM (Ethereum Sanal Makinası)'i Ethereum blockchain işletim sistemi olarak düşünebiliriz.
-- ERM solidity dilini anlamadığı için Losidity compiler ile compile ediyoruz. Ardından compile edilmiş Bytecode'u Ethereum sanal makinası ile paylaşarak işlem gerçekleştiriyoruz.
-
-- Remix IDE Solidity Compiler alt kısımda ihtiyacımız olan ABI kısmı olacak.  Buradaki veri tiplerine erişim sağlayacağız. ABI detayında contract lara ait veri tipi parametreler vs gibi bilgiler yer alır. Arayüzümüzden kolayca bu bilgiler ile etkileşebiliyoruz.
-- Remix IDE'de en alttaki sekme ise deploy sekmesi.  Cüzdan adresimiz hangi hesaptan işlem yapacağımız gibi bilgiler var. Buradan hangi contract ta işlem yapıyorsak CONTRACH kısmından onu seçmeliyiz. Aynı şekilde deploy dropdown'ı içinden hangi parametreler gönderilmesi gerekiyorsa bunları buradan belirtmeliyiz. Buradan transact butonuna basarak contract'ımızın deploy edildiğini görebiliriz.
-- Hazırladığımız contract'ı gerçek ağa yüklemek için remix'te environment'ı injected web3 (veya injected provider) yapıyoruz. Bu bizim metamask cüzdanımız anlamına gelir. buradan metamask cüzdanımızı idemize bağlıyoruz. 
+[Names Kontrat Örneği - Sepolia @ 0xc5aa73d861b830b874D075f81eFE5B968200f90F](./Names.sol)
