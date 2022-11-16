@@ -2,7 +2,7 @@
 
 It is an open source code repo created by taking notes within the scope of the studies made with the Turkish Smart Contract Developer Bootcamp videos prepared by ITU Blockchain.
 
-A link is given in each lesson folder of the related videos.
+You can find the notes on Solidity topics together with the code blocks in each .sol file, as well as in the readme.md file of the folder for each lesson.
 
 You can access these video contents [Youtube Channel](https://www.youtube.com/c/ITUBlockchain/) from this link.
 
