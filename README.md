@@ -40,8 +40,6 @@ You can also contact me through my contact information.
 Project Link: [https://github.com/enes9103](https://github.com/enes9103)
 </p>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- SUPPORT -->
 ## Support
 
@@ -76,8 +74,8 @@ This part contains basic Solidity knowledge that required to understand the synt
 | Solidity Basics   | Call                  | [0xulas.eth](https://twitter.com/ulerdogan)    | [Published](https://www.youtube.com/watch?v=NBJIBoxDpDs&list=PLby2HXktGwN4Cof_6a8YwlMrboX8-hs73&index=17&t=1s)  | 1x15 |
 | Solidity Basics   | Creating Contracts    | [0xulas.eth](https://twitter.com/ulerdogan)    | [Published](https://www.youtube.com/watch?v=0stIYoi3KG8&list=PLby2HXktGwN4Cof_6a8YwlMrboX8-hs73&index=19&t=3037s)  | 1x16 |
 
-<hr/>
 <p align="right">(<a href="#top">back to top</a>)</p>
+<hr/>
 
 ## Development Environments
 
@@ -95,8 +93,8 @@ This part introduces the most popular developer tools, libraries, and environmen
 | Dev. Environments | Go-Ethereum Introduction  | [0xulas.eth](https://twitter.com/ulerdogan)    | [Published](https://www.youtube.com/watch?v=WssH4iW48tM&ab_channel=ITUBlockchain)  | 2x7  |
 | Dev. Environments | Go-Ethereum Implementation | [0xulas.eth](https://twitter.com/ulerdogan)    | [Published](https://www.youtube.com/watch?v=xepBA8cnsZo&ab_channel=ITUBlockchain)  | 2x8  |
 
-<hr/>
 <p align="right">(<a href="#top">back to top</a>)</p>
+<hr/>
 
 ## Frontend & dApp Development
 
@@ -114,8 +112,8 @@ This part uses React for creating UI's for smart contracts and create Web3 dApps
 | Frontend & dApp   | Web3 Modal            | [farhad](https://twitter.com/asgarovf)        | [Published](https://www.youtube.com/watch?v=0fTGF9Jh0Ug)  | 3x7  |
 | Frontend & dApp   | Intro. to Ethylene.js | [farhad](https://twitter.com/asgarovf)        | [Published](https://www.youtube.com/watch?v=A-eW_z8tcqI)  | 3x8  |
 
-<hr/>
 <p align="right">(<a href="#top">back to top</a>)</p>
+<hr/>
 
 ## Security
 
@@ -131,8 +129,8 @@ This part includes content about Ethereum smart contract security and introduces
 | Security          | Echidna               | [zetsub0ii.eth](https://twitter.com/hamza_krb) | [Published](https://www.youtube.com/watch?v=Xc-yFcPtMyI)  | 4x5  |
 | Security          | Post Mortem Analyzes  | Team        | [Otopsi](#otopsi)  | 4x6  |
 
-<hr/>
 <p align="right">(<a href="#top">back to top</a>)</p>
+<hr/>
 
 ## Tutorials
 
@@ -155,8 +153,8 @@ This part introduces some well-known usecases and contracts.
 | Tutorials         | Bridge Developing II   | [zetsub0ii.eth](https://twitter.com/hamza_krb) | Preparing  | 5x12 |
 | Tutorials         | Patika Q&A - Staking  | [0xulas.eth](https://twitter.com/ulerdogan)    | [Published](https://www.youtube.com/watch)  | GST  |
 
-<hr/>
 <p align="right">(<a href="#top">back to top</a>)</p>
+<hr/>
 
 ## Advanced Concepts
 
@@ -172,5 +170,5 @@ This part introduces some advanced concepts in smart contract developing.
 | Advanced Concepts | Assembly              | [tahos.eth](https://twitter.com/0xTahos)     | Preparing  | 6x5  |
 | Advanced Concepts | Proxy Contracts       | [zetsub0ii.eth](https://twitter.com/hamza_krb)     | Preparing  | 6x6  |
 
-<hr/>
 <p align="right">(<a href="#top">back to top</a>)</p>
+<hr/>
