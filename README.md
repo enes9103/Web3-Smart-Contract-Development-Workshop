@@ -112,8 +112,8 @@ This part uses React for creating UI's for smart contracts and create Web3 dApps
 | Frontend & dApp   | Web3 Modal            | [farhad](https://twitter.com/asgarovf)        | [Published](https://www.youtube.com/watch?v=0fTGF9Jh0Ug)  | 3x7  |
 | Frontend & dApp   | Intro. to Ethylene.js | [farhad](https://twitter.com/asgarovf)        | [Published](https://www.youtube.com/watch?v=A-eW_z8tcqI)  | 3x8  |
 
-<hr/>
 <p align="right">(<a href="#top">back to top</a>)</p>
+<hr/>
 
 ## Security
 
