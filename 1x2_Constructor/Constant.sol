@@ -7,3 +7,5 @@ contract Constants {
     uint public constant MY_UINT = 123;
 
 }
+
+// `constant`: Değeri değiştirilemeyen değişkenlerdir. Atanan değer kontrat deploy edildikten sonra bir daha değiştirilemez. Başka bir fonksiyon yazıp yine de müdahale edilemez. Gaz maaliyetinden tasarruf sağlayabilir.

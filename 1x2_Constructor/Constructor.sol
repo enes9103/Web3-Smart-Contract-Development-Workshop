@@ -13,6 +13,8 @@ contract Constructor{
         totalSupply = number;
     }
 
+    // constructor genelde birdefa çalışmasını istediğimiz ve değişmesini istemedeiğimiz durumlarda kullanıyoruz.
+
     function set(uint number) public {
         totalSupply = number;
     }
